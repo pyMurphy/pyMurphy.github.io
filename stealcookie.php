@@ -6,8 +6,7 @@
   <body>
     <?php
       $c = $_GET["stealcookie"];
-      document.body.appendChild($c);
-      fclose($f);
+      document.body.appendChild($c+"\n");
     ?>
   </body>
 </html>
